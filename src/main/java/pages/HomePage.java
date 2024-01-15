@@ -8,29 +8,35 @@ public class HomePage {
     private WebDriver driver;
 
     //constructor
-    public HomePage(WebDriver driver) {this.driver = driver;}
+    public HomePage(WebDriver driver) {
+        this.driver = driver;
+    }
 
-    //method
-    public void clickLink(String linkText){
+    //method's to enter the classes
+    public void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
     }
-    public LoginPage clickFormAuthentication(){
+
+    public LoginPage clickFormAuthentication() {
         clickLink("Form Authentication");
         return new LoginPage(driver);
     }
+    public KeyPressesPage clickKeyPresses() {
+        clickLink("Key Presses");
+        return new KeyPressesPage(driver);
+    }
 
-    public HoversPage clickHovers(){
+    public HoversPage clickHovers() {
         clickLink("Hovers");
         return new HoversPage(driver);
     }
 
-    public DropDownPage clickDropdown(){
+    public DropDownPage clickDropdown() {
         clickLink("Dropdown");
         return new DropDownPage(driver);
-
     }
 
-    public DynamicLoadingPage clickDynamicLoading () {
+    public DynamicLoadingPage clickDynamicLoading() {
         clickLink("Dynamic Loading");
         return new DynamicLoadingPage(driver);
     }
@@ -39,4 +45,5 @@ public class HomePage {
         clickLink("File Upload");
         return new FileUploadPage(driver);
     }
+
 }
