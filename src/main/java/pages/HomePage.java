@@ -46,4 +46,12 @@ public class HomePage {
         return new FileUploadPage(driver);
     }
 
+    /*
+            Methods for individual exercises
+     */
+
+    public ForgotPasswordPage clickForgotPassword() {
+        clickLink("Forgot Password");
+        return new ForgotPasswordPage(driver);
+    }
 }

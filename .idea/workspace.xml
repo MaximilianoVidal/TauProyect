@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fccb29dd-61b9-4c44-8cd8-ff209c8626c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/ForgotPasswordPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +32,16 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2afVvRLfhZ0OMch33tuU29g2HGG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -44,6 +49,7 @@
     "TestNG.DropDownTests.testSelectOption.executor": "Run",
     "TestNG.FileUploadTests.executor": "Run",
     "TestNG.FileUploadTests.testFileUpload.executor": "Run",
+    "TestNG.ForgotPasswordPage.testRetrievePassword.executor": "Run",
     "TestNG.KeysTests.testBackspace.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.testSuccessfulLogin.executor": "Debug",
@@ -64,25 +70,7 @@
       <recent name="C:\Users\maxiv\IdeaProjects\TauProyect\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeysTests.testBackspace">
-    <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TauProyect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dropdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dropdown" />
-      <option name="MAIN_CLASS_NAME" value="dropdown.DropDownTests" />
-      <option name="METHOD_NAME" value="testSelectOption" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ForgotPasswordPage.testRetrievePassword">
     <configuration name="FileUploadTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
       <extension name="coverage">
@@ -111,6 +99,24 @@
       <option name="PACKAGE_NAME" value="fileUpload" />
       <option name="MAIN_CLASS_NAME" value="fileUpload.FileUploadTests" />
       <option name="METHOD_NAME" value="testFileUpload" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordPage.testRetrievePassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TauProyect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="testRetrievePassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPasswordPage.testRetrievePassword" />
         <item itemvalue="TestNG.KeysTests.testBackspace" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
         <item itemvalue="TestNG.FileUploadTests" />
         <item itemvalue="TestNG.WaitTests" />
-        <item itemvalue="TestNG.DropDownTests.testSelectOption" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +187,9 @@
       <updated>1704709853041</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
