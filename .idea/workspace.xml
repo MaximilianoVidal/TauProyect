@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fccb29dd-61b9-4c44-8cd8-ff209c8626c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screenshots/testWysiwyg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,8 @@
     "TestNG.FileUploadTests.executor": "Run",
     "TestNG.FileUploadTests.testFileUpload.executor": "Run",
     "TestNG.ForgotPasswordPage.testRetrievePassword.executor": "Run",
+    "TestNG.FrameTests.executor": "Run",
+    "TestNG.FrameTests.testWysiwyg.executor": "Run",
     "TestNG.KeysTests.testBackspace.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.testSuccessfulLogin.executor": "Debug",
@@ -70,24 +73,7 @@
       <recent name="C:\Users\maxiv\IdeaProjects\TauProyect\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ForgotPasswordPage.testRetrievePassword">
-    <configuration name="FileUploadTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TauProyect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileUpload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fileUpload" />
-      <option name="MAIN_CLASS_NAME" value="fileUpload.FileUploadTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.FrameTests">
     <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
       <extension name="coverage">
@@ -124,6 +110,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrameTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TauProyect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameTests.testWysiwyg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TauProyect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="METHOD_NAME" value="testWysiwyg" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
       <extension name="coverage">
@@ -142,30 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TauProyect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wait" />
-      <option name="MAIN_CLASS_NAME" value="wait.WaitTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FrameTests" />
+        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.ForgotPasswordPage.testRetrievePassword" />
         <item itemvalue="TestNG.KeysTests.testBackspace" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
-        <item itemvalue="TestNG.FileUploadTests" />
-        <item itemvalue="TestNG.WaitTests" />
       </list>
     </recent_temporary>
   </component>

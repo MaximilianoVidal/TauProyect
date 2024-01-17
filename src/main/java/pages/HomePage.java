@@ -45,6 +45,10 @@ public class HomePage {
         clickLink("File Upload");
         return new FileUploadPage(driver);
     }
+    public WysiwygEditorPage clickWysiwygEdit() {
+        clickLink("WYSIWYG Editor");
+        return new WysiwygEditorPage(driver);
+    }
 
     /*
             Methods for individual exercises
@@ -54,4 +58,6 @@ public class HomePage {
         clickLink("Forgot Password");
         return new ForgotPasswordPage(driver);
     }
+
+
 }
