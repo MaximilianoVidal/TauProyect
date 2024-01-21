@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage {
+
     // create atributes
     private WebDriver driver;
 
@@ -52,6 +53,11 @@ public class HomePage {
     public LargeAndDeepDomPage clickLargeAndDeepDom(){
         clickLink("Large & Deep DOM");
         return new LargeAndDeepDomPage(driver);
+    }
+
+    public InfiniteScrollPage clickInfiniteScroll() {
+        clickLink("Infinite Scroll");
+        return new InfiniteScrollPage(driver);
     }
 
     /*

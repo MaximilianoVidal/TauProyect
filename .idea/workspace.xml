@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fccb29dd-61b9-4c44-8cd8-ff209c8626c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/screenshots/testWysiwyg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LargeAndDeepDomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LargeAndDeepDomPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/javascript/JavaScriptTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/javascript/JavaScriptTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +53,13 @@
     "TestNG.ForgotPasswordPage.testRetrievePassword.executor": "Run",
     "TestNG.FrameTests.executor": "Run",
     "TestNG.FrameTests.testWysiwyg.executor": "Run",
+    "TestNG.JavaScriptTests.testScrollToFifthParagraph.executor": "Run",
+    "TestNG.JavaScriptTests.testScrollToTable.executor": "Run",
     "TestNG.KeysTests.testBackspace.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.testSuccessfulLogin.executor": "Debug",
     "TestNG.WaitTests.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/testCase-BranchC",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java folders/java folders",
     "project.structure.last.edited": "Project",
@@ -73,25 +75,7 @@
       <recent name="C:\Users\maxiv\IdeaProjects\TauProyect\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FrameTests">
-    <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TauProyect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileUpload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fileUpload" />
-      <option name="MAIN_CLASS_NAME" value="fileUpload.FileUploadTests" />
-      <option name="METHOD_NAME" value="testFileUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.JavaScriptTests.testScrollToFifthParagraph">
     <configuration name="ForgotPasswordPage.testRetrievePassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
       <extension name="coverage">
@@ -145,17 +129,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptTests.testScrollToFifthParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keys.*" />
+          <option name="PATTERN" value="javascript.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="keys" />
-      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
-      <option name="METHOD_NAME" value="testBackspace" />
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
+      <option name="METHOD_NAME" value="testScrollToFifthParagraph" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptTests.testScrollToTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TauProyect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
+      <option name="METHOD_NAME" value="testScrollToTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FrameTests" />
+        <item itemvalue="TestNG.JavaScriptTests.testScrollToFifthParagraph" />
+        <item itemvalue="TestNG.JavaScriptTests.testScrollToTable" />
         <item itemvalue="TestNG.FrameTests.testWysiwyg" />
+        <item itemvalue="TestNG.FrameTests" />
         <item itemvalue="TestNG.ForgotPasswordPage.testRetrievePassword" />
-        <item itemvalue="TestNG.KeysTests.testBackspace" />
-        <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
       </list>
     </recent_temporary>
   </component>
