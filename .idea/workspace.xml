@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fccb29dd-61b9-4c44-8cd8-ff209c8626c2" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/excercise/SliderTest.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/resources/screenshots/testSwitchTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NavigationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> feature/test3-maxi-diverged
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +61,16 @@
     "TestNG.KeysTests.testBackspace.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.testSuccessfulLogin.executor": "Debug",
+<<<<<<< HEAD
     "TestNG.SliderTest.testSlideToWholeNumber.executor": "Run",
     "TestNG.WaitTests.executor": "Run",
     "git-widget-placeholder": "feature/newExercise",
+=======
+    "TestNG.NavigationTests.testNavigation.executor": "Run",
+    "TestNG.NavigationTests.testSwitchTab.executor": "Run",
+    "TestNG.WaitTests.executor": "Run",
+    "git-widget-placeholder": "feature/test3-maxi-diverged",
+>>>>>>> feature/test3-maxi-diverged
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java folders/java folders",
     "project.structure.last.edited": "Project",
@@ -72,7 +86,11 @@
       <recent name="C:\Users\maxiv\IdeaProjects\TauProyect\src\test\java" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.SliderTest.testSlideToWholeNumber">
+=======
+  <component name="RunManager" selected="TestNG.NavigationTests.testSwitchTab">
+>>>>>>> feature/test3-maxi-diverged
     <configuration name="ForgotPasswordPage.testRetrievePassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
       <extension name="coverage">
@@ -126,17 +144,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTests.testNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TauProyect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="keys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="keys" />
-      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
-      <option name="METHOD_NAME" value="testBackspace" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NavigationTests" />
+      <option name="METHOD_NAME" value="testNavigation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTests.testSwitchTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TauProyect" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NavigationTests" />
+      <option name="METHOD_NAME" value="testSwitchTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,11 +188,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.SliderTest.testSlideToWholeNumber" />
         <item itemvalue="TestNG.FrameTests" />
         <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.ForgotPasswordPage.testRetrievePassword" />
         <item itemvalue="TestNG.KeysTests.testBackspace" />
+=======
+        <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
+        <item itemvalue="TestNG.NavigationTests.testNavigation" />
+        <item itemvalue="TestNG.FrameTests" />
+        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
+        <item itemvalue="TestNG.ForgotPasswordPage.testRetrievePassword" />
+>>>>>>> feature/test3-maxi-diverged
       </list>
     </recent_temporary>
   </component>
