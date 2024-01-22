@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fccb29dd-61b9-4c44-8cd8-ff209c8626c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/screenshots/testWysiwyg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="fccb29dd-61b9-4c44-8cd8-ff209c8626c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,32 +34,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.DropDownTests.testSelectOption.executor": "Run",
-    "TestNG.FileUploadTests.executor": "Run",
-    "TestNG.FileUploadTests.testFileUpload.executor": "Run",
-    "TestNG.ForgotPasswordPage.testRetrievePassword.executor": "Run",
-    "TestNG.FrameTests.executor": "Run",
-    "TestNG.FrameTests.testWysiwyg.executor": "Run",
-    "TestNG.KeysTests.testBackspace.executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.LoginTest.testSuccessfulLogin.executor": "Debug",
-    "TestNG.WaitTests.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java folders/java folders",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.DropDownTests.testSelectOption.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileUploadTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileUploadTests.testFileUpload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ForgotPasswordPage.testRetrievePassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FrameTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FrameTests.testWysiwyg.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeysTests.testBackspace.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testSuccessfulLogin.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.WaitTests.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java folders/java folders&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java folders\java folders" />
