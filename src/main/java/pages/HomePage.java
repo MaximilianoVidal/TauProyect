@@ -58,6 +58,10 @@ public class HomePage {
         clickLink("Forgot Password");
         return new ForgotPasswordPage(driver);
     }
+    public HorizontalSliderPage clickHorizontalSlider() {
+        clickLink("Horizontal Slider");
+        return new HorizontalSliderPage(driver);
+    }
 
 
 }
