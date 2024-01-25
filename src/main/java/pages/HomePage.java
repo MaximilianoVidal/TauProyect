@@ -59,5 +59,10 @@ public class HomePage {
         return new ForgotPasswordPage(driver);
     }
 
+    public ContextMenuPage clickContextMenu() {
+        clickLink("Context Menu");
+        return new ContextMenuPage(driver);
+    }
+
 
 }
